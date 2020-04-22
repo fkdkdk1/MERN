@@ -35,10 +35,10 @@ class addrList extends Component {
     render() { 
         return (
             <div className="table-wrapper">
-                <Table striped bordered hocer>
+                <Table striped bordered>
                     <thead>
                         <tr>
-                            <th>아이디</th>
+                            <th>아이디</th> 
                             <th>이름</th>
                             <th>이메일</th>
                             <th>전화번호</th>

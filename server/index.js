@@ -25,5 +25,5 @@ app.use(cors())
 app.use('/api', addrRouter)
 
 app.listen(port, function(){
-    console.log('server on! ' + port);
-});
+    console.log('server on! ' + port)
+})

@@ -11,7 +11,7 @@ export default class AddrsTableRow extends Component {
     }
 
     addrDelete() {
-        axios.delete('http://localhost:3001/api/addr/' + this.props.data._id)
+        axios.delete('http://localhost:8000/api/addr/' + this.props.data._id)
             .then((res) => {
                 alert('삭제 성공')
                 window.location.reload()

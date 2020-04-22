@@ -15,7 +15,7 @@ const apis = {
     addrList,
     addrUpdate,
     addrDelete,
-    addrOne,
-}
+    addrOne
+} 
 
 export default apis

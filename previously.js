@@ -39,7 +39,7 @@ getData(function(tableData) {
 
 
 // Promise 란?
-// Promise는 주솔 서버에서 받아온 데이터르르 화면에 표시할때 사용
+// Promise는 주 서버에서 받아온 데이터들을 화면에 표시할때 사용
 
 
 function getData(callback) {
